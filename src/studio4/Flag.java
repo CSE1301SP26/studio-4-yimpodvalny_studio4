@@ -17,6 +17,7 @@ public class Flag {
   	StdDraw.setPenColor(255, 175, 175);
 	StdDraw.filledRectangle(0.025, 1, 0.1, 1);
   	StdDraw.filledRectangle(0.975, 1, 0.1, 1);
+	StdDraw.filledRectangle(0.5,0.95,0.5,0.1);
 	StdDraw.setPenColor(175,214,255);
 	StdDraw.filledCircle(0.3, 0.6, 0.1);
 	StdDraw.filledCircle(0.7, 0.6, 0.1);
