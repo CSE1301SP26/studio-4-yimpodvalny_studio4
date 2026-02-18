@@ -24,12 +24,13 @@ public class InterpretDrawingFile {
 		int colorG = in.nextInt();
 		int colorB = in.nextInt();
 		boolean filled = in.nextBoolean();
-		double x = in.nextInt();
-		double y = in.nextInt();
-		double semiMajorAxis = in.nextInt();
-		double semiMinorAxis = in.nextInt();
+		double x = in.nextDouble();
+		double y = in.nextDouble();
+		double semiMajorAxis = in.nextDouble();
+		double semiMinorAxis = in.nextDouble();
 		StdDraw.setPenColor(colorR, colorG, colorB);
 		StdDraw.filledEllipse (x, y, semiMajorAxis, semiMinorAxis);
+		StdDraw.filled
 
 
 	}
